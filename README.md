@@ -38,6 +38,14 @@ Commands:
   tmp              查看可选模板
 ```
 
+## 模板库生态
+
+| Project                                                                  | Status | Description                  |
+| ------------------------------------------------------------------------ | ------ | ---------------------------- |
+| [rainbow-vue-cli](https://github.com/rainbow-design/rainbow-vue-cli)     | 100%   | Rainbow's Vue CLI            |
+| [wxapp-template](https://github.com/rainbow-design/wxapp-template)       | 100%   | 微信小程序脚手架模板（原生） |
+| [rainbow-react-cli](https://github.com/rainbow-design/rainbow-react-cli) | 100%   | Rainbow's React CLI          |
+
 ## License
 
 MIT
