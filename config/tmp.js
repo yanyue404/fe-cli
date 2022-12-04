@@ -1,14 +1,17 @@
 module.exports = [
   {
     name: "react",
-    path: "https://github.com/rainbow-design/rainbow-react-cli",
+    description: "Rainbow's ReactCLI",
+    path: "https://github.com/rainbow-design/react-boilerplate.git",
   },
   {
     name: "vue",
-    path: "https://github.com/rainbow-design/rainbow-vue-cli",
+    description: "Vue 2.6.14 boilerplate with vue-router, vuex & webpack 4.",
+    path: "https://github.com/yanyue404/vue-boilerplate.git",
   },
   {
     name: "wxapp",
-    path: "https://github.com/rainbow-design/wxapp-template",
+    description: "微信小程序脚手架模板（原生）",
+    path: "https://github.com/rainbow-design/wxapp-template.git",
   },
 ];

@@ -10,7 +10,8 @@ const msg = [
   "",
   chalk.green("更新成功"),
   "",
-  "rainbow -h   查看支持命令",
-  "rainbow tmp  查看可用模板",
+  "fe -h   查看支持命令",
+  "fe tmp  查看可用模板",
 ].join("\r\n");
+
 console.log(msg);

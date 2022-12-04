@@ -1,10 +1,14 @@
 {
-  "name": "template-cli",
+  "name": "fe-cli",
   "version": "0.0.1",
-  "description": "auto generate project template",
+  "description": "🛠️ A front-end automation tool (build your own project)",
   "main": "index.js",
   "bin": {
-    "rainbow": "./index.js"
+    "fe": "./bin/www"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "component": "plop component"
   },
   "keywords": [
     "cli",
@@ -20,5 +24,10 @@
     "inquirer": "^7.3.3",
     "ora": "^5.3.0",
     "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "husky": "^8.0.2",
+    "plop": "^2.4.0"
   }
 }
