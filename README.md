@@ -49,7 +49,7 @@ Commands:
 1. 按可选模板初始化项目 `fe create`
 2. 按自定义 git 仓库初始化项目 `fe create`
 3. 自动发布 tag `fe tag v1.0.0`
-4. 为当前项目集成代码规范 `fe recommend` TODO:
+4. 为当前项目集成代码规范 `fe standard`
 5. 为当前项目创建一个 vue 组件 `vue comp` TODO:
 
 ## 模板库生态

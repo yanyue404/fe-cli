@@ -28,6 +28,12 @@ const actionsMap = {
       executableFile: path.join(__dirname, "./tag.js"),
     },
   ],
+  standard: [
+    "集成代码规范",
+    {
+      executableFile: path.join(__dirname, "./standard.js"),
+    },
+  ],
   component: {
     description: "create component",
     alias: "comp",
@@ -59,10 +65,9 @@ Object.entries(actionsMap).forEach(([action, value]) => {
         // 动作
         switch (action) {
           case "component":
-            shell.cd(__dirname);
+            shell.cd(path.join(__dirname, "../"));
             shell.exec("npm run component");
             break;
-
           default:
             break;
         }
@@ -74,9 +79,7 @@ program
   .usage("[cmd] <options>")
   .arguments("<cmd> [env]")
   .action((cmd, params) => {
-    console.log(
-      `${chalk.yellow("没有")}[${chalk.red(cmd)}]${chalk.yellow("命令")}`
-    );
+    console.log(`${chalk.yellow("没有")}[${chalk.red(cmd)}]${chalk.yellow("命令")}`);
     shell.exec("fe -h");
     process.exit(1);
   });
